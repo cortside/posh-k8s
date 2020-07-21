@@ -1,9 +1,8 @@
-# posh
-Powershell scripts
+# posh-k8s
+Powershelp helpers for k8s
 
-iex ('$module="k8s";$user="cortside";$repo="posh"'+(new-object net.webclient).DownloadString('https://raw.githubusercontent.com/PsModuleInstall/InstallFromGithub/master/install.ps1'))
-
-Import-Module posh-k8s
-
-Install-Module -Name InstallModuleFromGitHub -RequiredVersion 0.3
+To install:
+* Install-Module -Name InstallModuleFromGitHub
+* Install-ModuleFromGitHub -GitHubRepo cortside/posh-k8s -Verbose
+* Import-Module posh-k8s
 
