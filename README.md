@@ -15,3 +15,10 @@ Import-Module posh-k8s
 ```
 
 Remember to reopen your shell.
+
+
+Functions:
+* k [flags] [options] - use instead of kubectl apply configured namespace, if any
+* kenv [environment name] [selected namespace] -- configured KUBECONFIG env var with config file ending in <environment name>
+
+Also adds environment name to powershell prompt.
