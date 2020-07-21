@@ -1,6 +1,8 @@
 ##
-#	kube helper commands and functions for powershell
+#	k8s helper commands and functions for powershell
+#	by Cort Schaefer
 ##
+
 
 # env var for where the config file is
 #$env:KUBECONFIG="H:\.kube\config.nonprod"
